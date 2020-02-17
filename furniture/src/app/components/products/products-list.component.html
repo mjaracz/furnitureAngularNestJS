@@ -1,0 +1,16 @@
+<div *ngIf="isLoading" class="list--spinner">
+  <mat-spinner class="list__spinner" color="warn"></mat-spinner>
+</div>
+
+<div *ngIf="!isLoading && productsList.length" class="list--container">
+  <mat-selection-list class="list" #tasks>
+    <mat-list-option color="warn" class="list__task" *ngFor="let product of productsList">
+      {{product.name}}
+    </mat-list-option>
+  </mat-selection-list>
+
+  <p class="list--counter">
+    Products selected {{tasks.selectedOptions.selected.length}}
+  </p>
+  <app-list-button></app-list-button>
+</div>

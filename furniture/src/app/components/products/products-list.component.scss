@@ -1,0 +1,39 @@
+.list {
+  margin-top: 35px;
+  width: 350px;
+}
+
+.list--container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.list__task {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.list--counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  width: 300px;
+  margin: 40px 0;
+}
+
+.list--spinner {
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list__spinner {
+  width: 50px;
+}

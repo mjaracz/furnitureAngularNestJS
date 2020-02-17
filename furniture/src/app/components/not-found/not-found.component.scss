@@ -1,0 +1,15 @@
+.pageNotFound--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46vw;
+  height: 65vh;
+  border: 1px solid #86868645;
+  margin: 0 auto;
+}
+.pageNotFound__text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  color: #1c1c1c;
+}

@@ -1,0 +1,12 @@
+.nav {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #1c1c1c;
+}
+.nav__item {
+  margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
