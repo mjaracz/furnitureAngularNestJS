@@ -8,7 +8,7 @@ import {InfoComponent} from './components/info/info.component';
 
 const routes: Routes = [
   {
-    path: '/',
+    path: '',
     component: HomeComponent
   },
   {
