@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Store} from '@ngrx/store';
 import * as fromReducer from '../store/reducers/products';
-import * as fromAction from '../store/actions/products-get';
+import * as fromAction from '../store/actions/products';
 
 @Injectable({
   providedIn: 'root'

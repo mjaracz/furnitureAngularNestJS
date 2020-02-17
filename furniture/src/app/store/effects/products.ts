@@ -6,7 +6,7 @@ import {Actions, createEffect, ofType} from '@ngrx/effects';
 
 import {ProductsService} from '../../services/products.service';
 import {Products} from '../interfaces/products';
-import * as productsAction from '../actions/products-get';
+import * as productsAction from '../actions/products';
 
 
 @Injectable()

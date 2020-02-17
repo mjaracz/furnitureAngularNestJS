@@ -20,7 +20,8 @@ import {ListButtonComponent} from './components/products/list-button/list-button
 
 import {reducers} from './store/reducers';
 import {NotFoundComponent} from './components/not-found/not-found.component';
-import { InfoComponent } from './components/info/info.component';
+import {InfoComponent} from './components/info/info.component';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { InfoComponent } from './components/info/info.component';
     ProductsListComponent,
     ListButtonComponent,
     NotFoundComponent,
-    InfoComponent
+    InfoComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

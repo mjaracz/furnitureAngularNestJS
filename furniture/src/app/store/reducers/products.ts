@@ -1,5 +1,5 @@
 import {Products} from '../interfaces/products';
-import * as products from '../actions/products-get';
+import * as products from '../actions/products';
 
 export interface State {
   items: Products[];
